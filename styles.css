@@ -1,11 +1,22 @@
 main{
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
     width: 100%;
 
 }
 p{
     font-size: 40rem;
+}
+.formu{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+input{
+    display: flex;
+    
 }
 button{
     width: 80px;
