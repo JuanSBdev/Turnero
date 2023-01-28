@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+p{
+    font-size: 40rem;
+}
+button{
+    width: 80px;
+    color: red;
+    display: block;
+    height: 50px;
+    
+}
