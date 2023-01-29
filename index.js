@@ -6,8 +6,7 @@ function clic(){
     let inicio = document.getElementById('inicio');
     comanda.innerHTML = texto.value;
     let div1 = document.getElementById('div1');
-    comanda.setAttribute('id', 'inicio');
-    inicio.innerHTML = '';
+    div1.innerHTML = '';
     div1.appendChild(comanda);
     console.log(texto);
    }
