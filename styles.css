@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 :root{
     background-color: black;
 }
@@ -9,9 +10,19 @@ main{
     width: 100%;
 
 }
+.comanda1{
+    display: flex;
+    flex-flow: row;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+.comanda1 img{
+    height: 10%;
+}
 p{
     margin: 10%;
     font-size: 130rem;
+    font-family: 'Oswald', sans-serif;
     color: aliceblue;
 }
 form{
@@ -21,12 +32,13 @@ form{
 }
 input{
     display: flex;
-
+width: 120%;
+height: 120px;
 }
 button{
     width: 80px;
     color: red;
     display: block;
-    height: 50px;
+    height: 120px;
     
 }
