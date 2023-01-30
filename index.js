@@ -13,7 +13,7 @@ function clic(){
     initAnimation();
     setTimeout(() => {
         endAnimation()
-    }, 4000);
+    }, 7000);
     } else {
         alert('Solo admite 3 cifras')
     }
