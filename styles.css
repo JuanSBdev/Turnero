@@ -34,6 +34,9 @@ animation-iteration-count: infinite;
     background-color: black;
     overflow: visible;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 main{
     display: flex;
     flex-flow: row wrap;
