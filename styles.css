@@ -64,19 +64,27 @@ p{
     font-family: 'Oswald', sans-serif;
     color: aliceblue;
 }
+.container{
+}
+.p-container{
+    font-size: 1rem;
+    display: flex;
+    justify-content: end;
+
+}
 form{
     display: flex;
-    justify-content: space-between;
     flex-flow: row;
+    justify-content: space-between;
+    align-self: center;
 }
 input{
     display: flex;
-    justify-content: center;
+    place-self: center;
     text-align: center;
-    width: 100%;
+    margin-left: 45%;
+    width: 10%;
     height: 30px;
-    margin-left: 47%;
-    margin-right: 47%;
     background-color: black;
     color: aliceblue;
     border: solid rgb(218, 137, 17) 1px;
