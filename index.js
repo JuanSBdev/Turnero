@@ -1,6 +1,10 @@
 document.oncontextmenu = function(){return false;}
+function play() {
+    var audio = document.getElementById("cling");
+    audio.play();}
 
 function clic(){
+    play();
     let comanda = document.createElement('p');
     comanda.setAttribute('id','p-creado');
     let texto = document.getElementById('formu-texto');
