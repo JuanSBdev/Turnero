@@ -64,8 +64,6 @@ p{
     font-family: 'Oswald', sans-serif;
     color: aliceblue;
 }
-.container{
-}
 .p-container{
     font-size: 1rem;
     display: flex;
@@ -98,4 +96,14 @@ button{
     height: 50px;
     display: none;
     
+}
+@media (max-width: 840px ) {
+
+    #img-tbk2{
+        display: none;
+    }
+    #img-tbk1{
+        width: 80%;
+        margin-bottom: -45%;
+    }
 }
