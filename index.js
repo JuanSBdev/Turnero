@@ -1,4 +1,4 @@
-
+document.oncontextmenu = function(){return false;}
 
 function clic(){
     let comanda = document.createElement('p');
