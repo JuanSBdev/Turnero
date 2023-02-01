@@ -54,7 +54,14 @@ main img{
     align-items:center ;
     justify-content: space-evenly;
 }
-
+.comand-ant{
+    display: flex;
+}
+#p-creado2{
+    font-size: 5rem;
+    position: absolute;
+    left: 1%;
+}
 #listo{
     font-size: 12rem;
 }
